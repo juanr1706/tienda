@@ -1,0 +1,56 @@
+/* Estilo para los detalles del pedido */
+.detalle-pedido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.detalle-pedido select,
+.detalle-pedido input,
+.detalle-pedido span,
+.detalle-pedido button {
+    margin-right: 10px;
+}
+
+.detalle-pedido .subtotal {
+    min-width: px;
+}
+
+.detalle-pedido .btn {
+    margin-left: 10px;
+}
+
+/* Estilo para los encabezados */
+.encabezados-detalle {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.encabezados-detalle div {
+    flex: 1;
+    text-align: center;
+}
+
+/* Asegurar que los valores de los detalles estén alineados correctamente */
+.detalle-pedido div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detalle-pedido div input,
+.detalle-pedido div select {
+    width: 100%;
+    max-width: 150px;
+}
+
+#totalTexto {
+    font-weight: bold;
+}
